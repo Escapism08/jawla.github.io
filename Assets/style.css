@@ -1,0 +1,404 @@
+.no-wrap{
+	white-space: nowrap;
+}
+
+a{
+	color:white;
+}
+@font-face {
+    font-family: arabic;
+    src: url("bootstrap/fonts/arabic2.woff");
+}
+body{
+	background-color: white;
+	margin: 0px;
+	font-family: arabic;
+}
+
+.logo-container{
+	text-align: center;
+}
+.text-under-logo{
+	text-align: center;
+	font-size:1.3em;
+	color:#96989d;
+	font-family: arabic;
+	opacity: 0.8;
+	margin-top: 8px;
+}
+.forum-container{
+	text-align: right;
+}
+
+.button-container{
+	text-align:center;
+}
+
+.forum-container{
+	padding: 20px;
+}
+.forum-text{
+	font-size: 1.5em;
+	color: #96989d;
+	// margin-bottom: 0;
+	// font-weight: 600;
+	font-family: arabic;
+	opacity: 0.8;
+}
+.input-custom{
+	width: 100%;
+	border-color: #96989d;
+	height: 2em;
+	border-top:0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom-width: 1px;
+	font-size: 1.2em;
+	text-align: right;
+	font-family: arabic;
+	opacity: 0.5;
+}
+
+.forgot-password-text{
+	text-align: left;
+	color:#96989d;
+	text-decoration: none;
+	margin-top: 12px;
+}
+.forgot-password-text a {
+	color:#96989d;
+	text-decoration: none;
+	font-size: 18px;
+	opacity: 0.5;
+}
+
+.custom-button-login{
+	padding: 1em 8em;
+	border-radius: 25px;
+	background-color: #0d702e;
+	color:white;
+	font-size: 1em;
+	font-weight: 800;
+	font-family: arabic;
+	border-color: transparent;
+	white-space: nowrap;
+}
+.new-account-text{
+	color:#0d702e;
+	font-family: arabic;
+	letter-spacing: 1px;
+	font-size: 1.2em;
+
+}
+
+.login-with-texts{
+	font-size: 1.5em;
+	color:white;
+	text-align: center;
+	padding:0px;
+	font-family: arabic;
+	margin-bottom: 0px;
+}
+
+body > div.button-container > button > a{
+	color:white;
+}
+body > div.button-container > a > p{
+	text-decoration: underline;
+}
+body > div.button-container > a > p{
+	padding: 2em;
+}
+.image-itself{
+	width:12em;
+}
+.custom-edits{
+	bottom: 1px;
+	position: fixed;
+	width: 100%;
+	background-color: #464c5c;
+}
+.custom-edits a{
+	color:#737882;
+}
+.custom-edits2{
+	width: 32%;
+	margin:0 auto;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+	background-color: transparent;
+}
+.trips-container{
+	margin:0 auto;
+	text-align: center;
+	margin-top: 15em;
+}
+.the-home{
+    background-image: url('images/background.png'); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.circlee{
+	margin:0 auto;
+	text-align: center;
+	margin-top: -6em;
+}
+
+.text-under-circle{
+	text-align: center;
+	color: white;
+}
+
+.button-container2{
+	margin:0 auto;
+	text-align: center;
+}
+
+.text-under-username{
+	text-align: center;
+	color: grey;
+	padding: 4em;
+}
+
+
+
+.guide-names2 {
+	text-align: right;
+	color: white;
+	font-size: 1.3em;
+	font-weight: 100;
+}
+
+.guide-country{
+	color: white;
+	font-size: 1em;
+	text-align: right;
+
+}
+
+
+
+body > div.button-container > button > a{
+	letter-spacing: 1px;
+}
+
+.img-circle{
+	width: 6em;
+	height: 5em;
+}
+
+// @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+fieldset, label { margin: 0; padding: 0; }
+
+h1 { font-size: 1.5em; margin: 10px; }
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+.no-margin{
+	    margin-right: 0px;
+   	    margin-left: 0px;
+}
+
+
+.adjust2{
+	width:30vw;
+}
+
+.adjust-forum-text{
+	font-size: 1.2em;
+}
+
+
+.img-circle{
+	width:11rem;
+	height: 9rem;
+}
+
+.a-links-inbuttons{
+	color: white;
+}
+
+.name-inguides{
+	font-weight: 600;
+}
+
+.confimation-container{
+    position: relative;
+    z-index: 1;
+    margin-top: -104px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.confimation-header{
+	text-align: center;
+	background-color: #8a9198;
+	padding: 1px;
+}
+.navigation-header{
+	height: 2em;
+	background-color: white;
+}
+
+.details-profile{
+	background-color: #7d858d;
+}
+
+.price-detailspage{
+	background-color: white;
+	padding: 3px;
+}
+
+.green-color{
+	color:#0d702e;
+	text-align: center;
+	font-size: 16px;
+}
+
+
+.green-color2{
+	color:#0d702e;
+	text-align: center;
+	font-size: 30px;
+}
+.row{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	// margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+
+.details-container{
+	background-color: white;
+	padding: 20px;
+}
+
+
+#btnControl {
+    display: none;
+}
+
+#btnControl:checked + label > div {
+   background-color: #0d702e;
+}
+#btnControl2 {
+    display: none;
+}
+
+#btnControl2:checked + label > div {
+   background-color: #0d702e;
+}
+
+#btnControl3 {
+    display: none;
+}
+
+#btnControl3:checked + label > div {
+   background-color: #0d702e;
+}
+#btnControl4 {
+    display: none;
+}
+
+#btnControl4:checked + label > div {
+   background-color: #0d702e;
+}
+#btnControl5 {
+    display: none;
+}
+
+#btnControl5:checked + label > div {
+   background-color: #0d702e;
+}
+#btnControl6 {
+    display: none;
+}
+
+#btnControl6:checked + label > div {
+   background-color: #0d702e;
+}
+.btnLeft{
+	border: 2px white solid;
+	border-radius: 20px;
+}
+
+.custom-b{
+	background-color: transparent;
+	border-radius: 35%;
+	color:green;
+	border-color: green;
+]
+/*fix this error*/
+
+.no-no{
+	border:none;
+}
+
+.input-custom{
+	width:100%;
+	background-color:transparent;
+}
+
+.icon-img2{
+	position: absolute;
+}
+
+body > div.text-fordate > img{
+	position: absolute;
+}
+
+
+
+.form-edit{
+	border-top-color:transparent;
+	border-left-color: transparent;
+	box-shadow: none;
+	border-right-color: transparent;
+	border-radius: none;
+
+}
+
+.horizontal-line{
+	margin:2em;
+}
